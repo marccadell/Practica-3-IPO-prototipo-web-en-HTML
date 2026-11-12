@@ -12,10 +12,12 @@
 
 <body style="font-family: inter, sans-serif;">
     <header>
-        <div style="display: flex; justify-content: space-between;">
+        <div>
             <div>
                 <button>
-                    <img src="images/back.png" alt="Volver atras" width="32px" />
+                    <a href="02_detalle_del_producto.html">
+                        <img src="images/back.png" alt="Volver atras" width="32px" />
+                    </a>
                 </button>
             </div>
             <div>
@@ -37,7 +39,7 @@
                 <button>
                     <img src="images/minus.png" alt="Quitar 1 unidad" width="16px" />
                 </button>
-                1
+                <p>1</p>
                 <button>
                     <img src="images/more.png" alt="Agregar 1 unidad más" width="16px" />
                 </button>
@@ -54,7 +56,7 @@
                 <button>
                     <img src="images/minus.png" alt="Quitar 1 unidad" width="16px" />
                 </button>
-                1
+                <p>1</p>
                 <button>
                     <img src="images/more.png" alt="Agregar 1 unidad más" width="16px" />
                 </button>
@@ -66,7 +68,7 @@
     <br /><br />
     <hr />
 
-    <section style="display: flex; justify-content: space-around;">
+    <section>
         <div>
             <h1>Total</h1>
         </div>
@@ -75,6 +77,31 @@
             <h1>3,00 €</h1>
         </div>
     </section>
+
+    <br />
+
+    <div>
+        <h3>Selecciona la hora de recogida</h3>
+
+        <input type="radio" id="hora1" name="hora">
+        <label for="hora1">10:00</label>
+
+        <input type="radio" id="hora2" name="hora" checked>
+        <label for="hora2">10:30</label>
+
+        <input type="radio" id="hora3" name="hora">
+        <label for="hora3">11:00</label>
+
+        <input type="radio" id="hora4" name="hora">
+        <label for="hora4">11:30</label>
+    </div>
+
+    <br><br />
+    <button>
+        <a href="04_pago_y_confirmacion.html">
+            Proceder al pago
+        </a>
+    </button>
 
 </body>
 
