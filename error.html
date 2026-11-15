@@ -9,8 +9,102 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 
-<body>
+<body style="font-family: inter, sans-serif;">
+    <header>
+        <div>
+            <div>
+                <button>
+                    <a href="02_detalle_del_producto.html">
+                        <img src="images/back.png" alt="Volver atras" width="32px" />
+                    </a>
+                </button>
+            </div>
+            <div>
+                <button>
+                    <img src="images/list.png" alt="Menu desplegable" width="32px" />
+                </button>
+            </div>
+        </div>
+    </header>
 
+    <br /><br />
+
+    <section>
+        <article>
+            <img src="images/croissant.jpg" alt="Foto croissant" width="128px" />
+            <h2>Croissant</h2>
+            <p>1,80 €</p>
+            <div>
+                <button>
+                    <img src="images/minus.png" alt="Quitar 1 unidad" width="16px" />
+                </button>
+                <p>1</p>
+                <button>
+                    <img src="images/more.png" alt="Agregar 1 unidad más" width="16px" />
+                </button>
+            </div>
+        </article>
+
+        <br />
+
+        <article>
+            <img src="images/cafe.jpg" alt="Foto croissant" width="128px" />
+            <h2>Café</h2>
+            <p>1,20 €</p>
+            <div>
+                <button>
+                    <img src="images/minus.png" alt="Quitar 1 unidad" width="16px" />
+                </button>
+                <p>1</p>
+                <button>
+                    <img src="images/more.png" alt="Agregar 1 unidad más" width="16px" />
+                </button>
+            </div>
+        </article>
+    </section>
+
+
+    <br /><br />
+    <hr />
+
+    <section>
+        <div>
+            <h1>Total</h1>
+        </div>
+
+        <div>
+            <h1>3,00 €</h1>
+        </div>
+    </section>
+
+    <br />
+
+    <div>
+        <h3>Selecciona la hora de recogida</h3>
+
+        <input type="radio" id="hora1" name="hora">
+        <label for="hora1">10:00</label>
+
+        <input type="radio" id="hora2" name="hora" checked>
+        <label for="hora2">10:30</label>
+
+        <input type="radio" id="hora3" name="hora">
+        <label for="hora3">11:00</label>
+
+        <input type="radio" id="hora4" name="hora">
+        <label for="hora4">11:30</label>
+    </div>
+
+    <br><br />
+
+    <div>
+        <img src="images/error.png" alt="icono error" width="16px" />
+        <p>Selecciona otra hora de recogida.<br>
+            Horario no disponible.</p>
+    </div>
+
+    <br>
+    <button disabled>Proceder al pago</button>
 </body>
 
 </html>
