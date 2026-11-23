@@ -1,0 +1,128 @@
+<!-- Figma: 01_Inicio -->
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>TecnoCafé - Inicio</title>
+    <meta name="description" content="Página principal de TecnoCafé con el catálogo de productos destacados de desayuno y cafetería." />
+    <link rel="icon" href="images/favicon.png" />
+</head>
+<body>
+    <header>
+        <div>
+            <table border="0" cellpadding="5" width="100%">
+                <tr>
+                    <td align="left">
+                        <h1>TecnoCafé</h1>
+                    </td>
+                    <td align="right">
+                        <p>
+                            <a href="03_carrito_y_hora_de_recogida.html">
+                                <img src="images/cart.png" alt="Carrito de la compra" width="32" />
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <form action="index.html" method="get">
+                <p>
+                    <label for="buscar">Buscar productos:</label>
+                    <input type="text" id="buscar" name="buscar" placeholder="Buscar productos..." size="30" />
+                </p>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Categorías</h2>
+            <ul>
+                <li><a href="#todos">Todos</a></li>
+                <li><a href="#desayunos">Desayunos</a></li>
+                <li><a href="#bocadillos">Bocadillos</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Productos destacados</h2>
+
+            <div>
+                <table border="0" cellpadding="15">
+                    <tr valign="top">
+                        <td align="center">
+                            <div>
+                                <img src="images/cafe.jpg" alt="Taza de café con leche" width="160" />
+                                <h3>Café</h3>
+                                <p>1,20 €</p>
+                                <p>
+                                    <button type="button">
+                                        <img src="images/more.png" alt="Añadir café" width="16" />
+                                    </button>
+                                </p>
+                            </div>
+                        </td>
+                        <td align="center">
+                            <div>
+                                <a href="02_detalle_del_producto.html">
+                                    <img src="images/croissant.png" alt="Croissant recién horneado" width="160" />
+                                </a>
+                                <h3>
+                                    <a href="02_detalle_del_producto.html">Croissant</a>
+                                </h3>
+                                <p>1,80 €</p>
+                                <p>
+                                    <a href="02_detalle_del_producto.html">
+                                        <img src="images/more.png" alt="Ver detalle y añadir croissant" width="16" />
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td align="center">
+                            <div>
+                                <img src="images/bocadillo.png" alt="Bocadillo de jamón ibérico" width="160" />
+                                <h3>Bocadillo</h3>
+                                <p>3,50 €</p>
+                                <p>
+                                    <button type="button">
+                                        <img src="images/more.png" alt="Añadir bocadillo" width="16" />
+                                    </button>
+                                </p>
+                            </div>
+                        </td>
+                        <td align="center">
+                            <div>
+                                <img src="images/zumo.jpg" alt="Botella de zumo de naranja natural" width="160" />
+                                <h3>Zumo</h3>
+                                <p>2,00 €</p>
+                                <p>
+                                    <button type="button">
+                                        <img src="images/more.png" alt="Añadir zumo" width="16" />
+                                    </button>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <h2>Navegación</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="03_carrito_y_hora_de_recogida.html">Pedidos</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
